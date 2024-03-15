@@ -16,6 +16,20 @@
 namespace BacCustomFunctionality;
 
 /**
+ * Test filtering for emoji
+ *
+ * @param array $data The post data.
+ * @return array
+ */
+function test_filtering_emoji( $data ) {
+	if ( ! empty( $data['post_content'] ) ) {
+		$data['post_content'] = wp_encode_emoji( $data['post_content'] );
+	}
+	return $data;
+}
+add_filter( 'wp_insert_post_data', __NAMESPACE__ . '\test_filtering_emoji', 99 );
+
+/**
  * Add a link tag to the title of posts that have a custom link set.
  *
  * @param string $title The title of the post.
