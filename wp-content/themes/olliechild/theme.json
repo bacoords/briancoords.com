@@ -1,0 +1,93 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#003353",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#233240",
+					"name": "Main",
+					"slug": "main"
+				},
+				{
+					"color": "#636381",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#d0ccde",
+					"name": "Main Accent",
+					"slug": "main-accent"
+				},
+				{
+					"color": "#e4e1fe",
+					"name": "Primary Accent",
+					"slug": "primary-accent"
+				},
+				{
+					"color": "#f2f2f0",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#fdfdf9",
+					"name": "Base",
+					"slug": "base"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://bcoords.local/wp-content/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "https://bcoords.local/wp-content/fonts/inter_normal_700.ttf"
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				}
+			]
+		}
+	},
+	"styles": {
+		"css": "@media(max-width:781px){\n.reverse-on-mobile{\n flex-direction: column-reverse !important;\n}\n}",
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"link": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
+}
