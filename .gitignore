@@ -29,6 +29,7 @@
 /wp-content/themes/*
 /wp-content/plugins/*
 /wp-content/mu-plugins/*
+!/wp-content/plugins/bac-functionality/
 
 
 # Log files
