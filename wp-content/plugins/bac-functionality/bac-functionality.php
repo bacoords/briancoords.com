@@ -262,7 +262,7 @@ register_block_style(
 			display:flex;
     	}
 		.is-style-emoji-list-1 li::before {
-			  content: "???? ";
+			  content: "👉 ";
 			  margin-right: 0.25rem;
     	}
 		',
