@@ -16,8 +16,8 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:site-title {"fontSize":"base"} /-->
 
-<!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size">WordPress Developer & Educator</p>
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-small"} -->
+<p class="has-x-small-font-size" style="line-height:1.2">WordPress Developer & Educator</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
