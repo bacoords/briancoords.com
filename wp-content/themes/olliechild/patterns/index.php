@@ -25,7 +25,7 @@
 <!-- wp:column {"verticalAlignment":"bottom"} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|40","top":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"fontSize":"x-large"} -->
-<p class="has-x-large-font-size"><strong><mark style="background-color:#233240;color:#ffffff" class="has-inline-color">Hi, I'm Brian!</mark></strong></p>
+<p class="has-x-large-font-size"><strong><mark style="background-color:#003353" class="has-inline-color has-base-color">Hi, I'm Brian!</mark></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -68,20 +68,20 @@
 <!-- /wp:heading -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","right":"var:preset|spacing|20","top":"0","bottom":"0"}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/blog/" style="padding-top:0;padding-right:var(--wp--preset--spacing--20);padding-bottom:0;padding-left:var(--wp--preset--spacing--20)">Blog</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/blog/">Blog</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","right":"var:preset|spacing|20","top":"0","bottom":"0"}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/videos/" style="padding-top:0;padding-right:var(--wp--preset--spacing--20);padding-bottom:0;padding-left:var(--wp--preset--spacing--20)">Videos</a></div>
+<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/videos/">Videos</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","right":"var:preset|spacing|20","top":"0","bottom":"0"}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/tutorials/" style="padding-top:0;padding-right:var(--wp--preset--spacing--20);padding-bottom:0;padding-left:var(--wp--preset--spacing--20)">Tutorials</a></div>
+<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/tutorials/">Tutorials</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","right":"var:preset|spacing|20","top":"0","bottom":"0"}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/newsletter/" style="padding-top:0;padding-right:var(--wp--preset--spacing--20);padding-bottom:0;padding-left:var(--wp--preset--spacing--20)">Newsletters</a></div>
+<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="https://www.briancoords.com/newsletter/">Newsletters</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -90,19 +90,7 @@
 <main class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":"0","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true},"metadata":{"categories":["olliechild/posts"]},"align":"full"} -->
 <div class="wp-block-query alignfull"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-top:0;padding-bottom:0"><!-- wp:post-template {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"default","columnCount":2},"fontSize":"large"} -->
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-base-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"underline"},"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"primary","textColor":"base","fontSize":"x-small"} /-->
-
-<!-- wp:post-date {"textColor":"secondary","fontSize":"x-small"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"typography":{"textDecoration":"none"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} /-->
-
-<!-- wp:post-excerpt {"moreText":"","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"className":"is-style-excerpt-truncate-3","fontSize":"small"} /--></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
+<!-- wp:template-part {"slug":"default-loop-item"} /-->
 <!-- /wp:post-template -->
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|x-large"}}},"layout":{"type":"constrained"}} -->
