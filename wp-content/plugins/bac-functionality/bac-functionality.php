@@ -29,6 +29,14 @@ function test_filtering_emoji( $data ) {
 }
 add_filter( 'wp_insert_post_data', __NAMESPACE__ . '\test_filtering_emoji', 99 );
 
+
+
+function enqueue_custom_styles() {
+	wp_enqueue_style( 'bac-custom-styles', plugin_dir_url( __FILE__ ) . 'style.css', array(), '0.1.0', 'all' );
+}
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_custom_styles' );
+add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_custom_styles' );
+
 /**
  * Add a link tag to the title of posts that have a custom link set.
  *

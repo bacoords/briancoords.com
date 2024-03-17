@@ -1,0 +1,10 @@
+.formkit-form input[type=text].formkit-input {
+	background-color: var(--wp--preset--color--tertiary);
+}
+
+.formkit-form input[type=text]::placeholder {
+	font-size:15px;
+}
+.formkit-form button span{
+	line-height: normal;
+}
