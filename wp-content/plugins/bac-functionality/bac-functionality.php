@@ -115,7 +115,7 @@ function bcdotcom_newsletter_cpt_init() {
 		'hierarchical'       => false,
 		'menu_icon'          => 'dashicons-email-alt2',
 		'menu_position'      => null,
-		'supports'           => array( 'title', 'editor', 'revisions', 'author', 'excerpt' ),
+		'supports'           => array( 'title', 'editor', 'revisions', 'author', 'excerpt', 'comments' ),
 		'taxonomies'         => array( 'category' ),
 	);
 
