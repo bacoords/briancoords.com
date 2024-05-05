@@ -88,6 +88,12 @@
 			"fontFamily": "var(--wp--preset--font-family--inter)"
 		}
 	},
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"title": "Page with no title"
+		}
+	],
 	"version": 2,
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
