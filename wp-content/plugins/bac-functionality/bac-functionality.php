@@ -4,7 +4,7 @@
  * Description:       Custom .
  * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -31,8 +31,13 @@ add_filter( 'wp_insert_post_data', __NAMESPACE__ . '\test_filtering_emoji', 99 )
 
 
 
+/**
+ * Enqueue custom styles.
+ *
+ * @return void
+ */
 function enqueue_custom_styles() {
-	wp_enqueue_style( 'bac-custom-styles', plugin_dir_url( __FILE__ ) . 'style.css', array(), '0.1.0', 'all' );
+	wp_enqueue_style( 'bac-custom-styles', plugin_dir_url( __FILE__ ) . 'style.css', array(), '0.1.1', 'all' );
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_custom_styles' );
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_custom_styles' );
