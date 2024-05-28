@@ -317,3 +317,18 @@ register_block_style(
 		',
 	)
 );
+
+
+register_block_style(
+	'core/group',
+	array(
+		'label'        => 'Grid 1 Column Mobile',
+		'name'         => 'grid-1-column-mobile',
+		'inline_style' => '
+		@media (max-width: 768px) {
+			.is-layout-grid.is-style-grid-1-column-mobile {
+				grid-template-columns: repeat(1, minmax(0, 1fr));
+			}
+		}',
+	)
+);
