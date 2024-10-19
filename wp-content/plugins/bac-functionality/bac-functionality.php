@@ -285,7 +285,7 @@ register_block_style(
 			list-style:none;
 			padding-left:0;
     	}
-		.is-style-emoji-list-1.wp-block-list li {
+		.is-style-emoji-list-1.wp-block-list li.block-editor-block-list__block {
 			display:flex;
     	}
 		.is-style-emoji-list-1 li::before {
@@ -307,7 +307,7 @@ register_block_style(
 			list-style:none;
 			padding-left:0;
     	}
-		.is-style-emoji-list-2.wp-block-list li {
+		.is-style-emoji-list-2.wp-block-list li.block-editor-block-list__block {
 			display:flex;
     	}
 		.is-style-emoji-list-2 li::before {
