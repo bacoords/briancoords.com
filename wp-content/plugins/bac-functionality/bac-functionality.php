@@ -346,3 +346,18 @@ function remove_dashicons_from_frontend() {
 	}
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\remove_dashicons_from_frontend' );
+
+
+
+/**
+ * Remove the default episode download link filter.
+ *
+ * @param string $url The episode download URL.
+ * @param int    $episode_id The episode ID.
+ * @param string $file The episode file URL.
+ * @return string
+ */
+function ssp_use_raw_audio_file_url( $url, $episode_id, $file ) {
+	return $file;
+}
+add_filter( 'ssp_episode_download_link', __NAMESPACE__ . '\ssp_use_raw_audio_file_url', 10, 3 );
