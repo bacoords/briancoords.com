@@ -51,3 +51,4 @@ local-xdebuginfo.php
 # Other
 .DS_Store
 node_modules
+pull.sh
