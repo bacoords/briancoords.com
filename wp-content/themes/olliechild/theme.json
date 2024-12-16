@@ -1,4 +1,10 @@
 {
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"title": "Page with no title"
+		}
+	],
 	"settings": {
 		"color": {
 			"palette": [
@@ -33,6 +39,16 @@
 					"slug": "tertiary"
 				},
 				{
+					"color": "#DADEE3",
+					"name": "Border Light",
+					"slug": "border-light"
+				},
+				{
+					"color": "#444B57",
+					"name": "Border Dark",
+					"slug": "border-dark"
+				},
+				{
 					"color": "#fdfdf9",
 					"name": "Base",
 					"slug": "base"
@@ -65,11 +81,86 @@
 					"name": "Inter",
 					"slug": "inter"
 				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": ".95rem",
+						"min": ".825rem"
+					},
+					"name": "Extra Small",
+					"size": ".95rem",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"max": "1.05rem",
+						"min": ".9rem"
+					},
+					"name": "Small",
+					"size": "1.05rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.165rem",
+						"min": "1rem"
+					},
+					"name": "Base",
+					"size": "1.165rem",
+					"slug": "base"
+				},
+				{
+					"fluid": {
+						"max": "1.65rem",
+						"min": "1.365rem"
+					},
+					"name": "Medium",
+					"size": "1.65rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "2.75rem",
+						"min": "1.75rem"
+					},
+					"name": "Large",
+					"size": "2.75rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "3.5rem",
+						"min": "2rem"
+					},
+					"name": "Extra Large",
+					"size": "3.5rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "4.3875rem",
+						"min": "2.4rem"
+					},
+					"name": "Extra Extra Large",
+					"size": "4.3875rem",
+					"slug": "xx-large"
+				}
 			]
 		}
 	},
 	"styles": {
-		"css": "@media(max-width:781px){\n.reverse-on-mobile{\n flex-direction: column-reverse !important;\n}\n}",
+		"blocks": {
+			"core/button": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"letterSpacing": "0.5px",
+					"textDecoration": "none"
+				}
+			}
+		},
+		"css": "@media(max-width:781px){\n.reverse-on-mobile{\n flex-direction: column-reverse !important;\n}\n}\n\n\nhtml{\n    -webkit-font-smoothing: initial !important;\n}",
 		"elements": {
 			"heading": {
 				"typography": {
@@ -85,15 +176,12 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--inter)"
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"lineHeight": "1.7"
 		}
 	},
-	"customTemplates": [
-		{
-			"name": "page-no-title",
-			"title": "Page with no title"
-		}
-	],
-	"version": 2,
+	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
