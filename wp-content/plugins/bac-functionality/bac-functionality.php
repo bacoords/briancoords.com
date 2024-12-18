@@ -66,7 +66,7 @@ add_filter( 'the_title', __NAMESPACE__ . '\bc_add_link_tag', 10, 2 );
  * @return WP_Query The main query.
  */
 function bc_add_cpt_to_front_page_query( $query ) {
-	if ( is_home() && $query->is_main_query() && ! is_admin() ) {
+	if ( $query->is_main_query() && ! is_admin() && ( is_home() || is_feed() ) ) {
 		$query->set( 'post_type', array( 'post', 'newsletter' ) );
 	}
 	return $query;
