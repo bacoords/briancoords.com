@@ -27,7 +27,7 @@ function test_filtering_emoji( $data ) {
 	}
 	return $data;
 }
-// add_filter( 'wp_insert_post_data', __NAMESPACE__ . '\test_filtering_emoji', 99 );
+add_filter( 'wp_insert_post_data', __NAMESPACE__ . '\test_filtering_emoji', 99 );
 
 
 
