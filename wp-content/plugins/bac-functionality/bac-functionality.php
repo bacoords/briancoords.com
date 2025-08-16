@@ -71,7 +71,7 @@ function bc_add_cpt_to_front_page_query( $query ) {
 	}
 	return $query;
 }
-add_action( 'pre_get_posts', __NAMESPACE__ . '\bc_add_cpt_to_front_page_query' );
+// add_action( 'pre_get_posts', __NAMESPACE__ . '\bc_add_cpt_to_front_page_query' );
 
 /**
  * Register a custom post type called "Newsletter".
@@ -126,7 +126,7 @@ function bcdotcom_newsletter_cpt_init() {
 
 	register_post_type( 'newsletter', $args );
 }
-add_action( 'init', __NAMESPACE__ . '\bcdotcom_newsletter_cpt_init' );
+// add_action( 'init', __NAMESPACE__ . '\bcdotcom_newsletter_cpt_init' );
 
 
 
@@ -188,7 +188,7 @@ add_action( 'init', __NAMESPACE__ . '\bcdotcom_draft_cpt_init' );
 
 
 /**
- * Register a custom post type called "Newsletter".
+ * Register a custom post type called "Presentation".
  *
  * @see get_post_type_labels() for label keys.
  */
