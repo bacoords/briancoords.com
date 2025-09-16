@@ -99,7 +99,10 @@ function bcdotcom_seven_tools_cpt_init() {
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => '7-tools',
+		'rewrite'            => array(
+			'slug'       => '7-tools',
+			'with_front' => false,
+		),
 		'show_in_rest'       => 'true',
 		'capability_type'    => 'post',
 		'has_archive'        => false,
